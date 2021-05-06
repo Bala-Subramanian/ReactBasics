@@ -7,9 +7,9 @@ function Login() {
         console.log("Inside onclicksubmit ");
         e.preventDefault();
     }
-    const onclicksignup = (e) => {
+    const onclickUserlist = (e) => {
         e.preventDefault();
-        history.push("/signup");
+        history.push("/Userlist");
     }
     const onclicksignin = (e) => {
         history.push("/signin");
@@ -23,7 +23,7 @@ function Login() {
                 <button type="submit">Log in.</button>
             </form>
             <button onClick = {onclicksignin}>Signin</button>
-            <button onClick = {onclicksignup}>Signup</button>
+            <button onClick = {onclickUserlist}>Userlist</button>
         </div>
     )
 }
