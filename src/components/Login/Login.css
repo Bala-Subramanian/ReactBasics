@@ -1,0 +1,29 @@
+
+.logincls {
+  margin: 50px;
+  background-color: #092756;
+}
+.logincls h1 { color: #fff;  letter-spacing:1px; text-align:center; }
+
+.logincls input { 
+  margin: 10px; 
+  background: rgba(0,0,0,0.3);
+  border: none;
+  outline: none;
+  padding: 10px;
+  font-size: 13px;
+  border-radius: 4px;
+  color: white;
+}
+input:focus{
+    border:2px solid white;
+    border-radius: 4px;
+}
+
+button{
+    background-color: #0c2e72;
+    color: #ffffff;
+    margin:5px;
+    padding: 5px;
+    border-radius: 4px;
+}
